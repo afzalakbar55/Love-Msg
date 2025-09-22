@@ -1,0 +1,17 @@
+name: love_message_app
+description: A Flutter app that loads pre-generated romantic messages from assets.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/messages.json
